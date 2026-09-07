@@ -153,4 +153,50 @@ int main()
         }
         cout << endl;
     }
+    cout << endl;
+    cout << "Eleventh task" << endl;
+    int n;
+    cout << "Enter a n: ";
+    cin >> n;
+    
+    for (int i = 0; i<=n ; i++)
+    {
+        N = n;
+        for (int j = 0; j < i*n; j++)
+        {
+            cout << i;
+
+        }
+        cout << endl;
+    }
+    cout << endl;
+    cout << "Thirhtenth task" << endl;
+    for (int i = 0; i < 10; i++)
+    {
+        for (int j = 0; j < 10; j++)
+        {
+            if (i == j or i + j == 10-1) {
+                cout << "0 ";
+            }
+            else {
+                cout << "1 ";
+            }
+        }
+        cout << endl;
+    }
+    cout << endl;
+    cout << "Fourthtenth task" << endl;
+    for (int i = 10; i > 0; i--)
+    {
+        
+        for (int j = 0; j < i; j++)
+        {
+            N += i;
+            cout << i;
+
+        }
+        cout << endl;
+    }
+ 
+
 }
