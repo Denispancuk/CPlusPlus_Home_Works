@@ -66,9 +66,9 @@ int main()
     //         cout << "Wednesday" << endl;
     //    }
     //// тернарний оператор
-    float a, b, res;
+    float a=0, b=0, res;
     
-    char key;
+    char key = 'y';
     cout << "Choose the operation: " << endl;
     cout << "[+] - Add number" << endl;
     cout << "[-] - Sub number" << endl;
